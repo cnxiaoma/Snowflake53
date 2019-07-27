@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <Authors>Mark</Authors>
+    <Copyright>Mark</Copyright>
+    <Owners>Mark</Owners>
+    <Summary>Snowflake-like IdGenerator 53bit for Javascript</Summary>
+    <Title>Snowflake53</Title>
+    <PackageId>Snowflake53</PackageId>
+    <PackageVersion>1.0.1</PackageVersion>
+    <Description>Snowflake-like IdGenerator 53bit for Javascript</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.5-dev.8">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>
